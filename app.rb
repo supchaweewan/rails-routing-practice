@@ -31,4 +31,6 @@ class RouteRecognizerApp < Sinatra::Base
     end
     erb :main
   end
+
+  run! if __FILE__ == $0
 end
